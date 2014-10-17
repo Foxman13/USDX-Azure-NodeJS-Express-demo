@@ -6,6 +6,7 @@
 var nconf = require("nconf");
 var DocumentDBClient = require("documentdb").DocumentClient;
 
+// Create nconf environtment
 nconf.env();
 nconf.file({ file: 'config.json' });
 
