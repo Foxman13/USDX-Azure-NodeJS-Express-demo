@@ -1,0 +1,17 @@
+{
+  "name": "HackTX",
+  "version": "0.0.0",
+  "description": "HackTX",
+  "main": "app.js",
+  "author": {
+    "name": "ryanjoy",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "stylus": "*",
+    "nconf": "~0.6.9",
+    "documentdb":  "~0.9.1"
+  }
+}
