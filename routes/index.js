@@ -7,13 +7,15 @@ var nconf = require("nconf");
 var DocumentDBClient = require("documentdb").DocumentClient;
 
 // Create nconf environtment
-nconf.env();
-nconf.file({ file: 'config.json' });
+nconf
+    .file({ file: 'config.json' })
+    .env();
 
-var host = nconf.get("HOST");
-var authKey = nconf.get("AUTH_KEY");
-var databaseId = nconf.get("DATABASE");
-var collectionId = nconf.get("COLLECTION");
+var host = nconf.get("DOCUMENTDB_HOST");
+var authKey = nconf.get("DOCUMENTDB_AUTH_KEY");
+
+var databaseId = "HackTX";
+var collectionId = "Hackers";
 
 var client = new DocumentDBClient(host, { masterKey: authKey });
 
