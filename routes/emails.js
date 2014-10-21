@@ -14,7 +14,7 @@ nconf
 var host = nconf.get("DOCUMENTDB_HOST");
 var authKey = nconf.get("DOCUMENTDB_AUTH_KEY");
 
-var databaseId = "HackTX";
+var databaseId = "UniversityHackathon";
 var collectionId = "Hackers";
 
 
