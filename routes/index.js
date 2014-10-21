@@ -20,7 +20,7 @@ var collectionId = "Hackers";
 var client = new DocumentDBClient(host, { masterKey: authKey });
 
 exports.index = function (req, res) {
-    res.render('index', { title: 'Hello HackTX!' });
+    res.render('index', { title: 'Hello TAMUHack!' });
 };
 
 exports.createItem = function (req, res) {
