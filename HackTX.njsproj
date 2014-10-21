@@ -33,7 +33,7 @@
   <ItemGroup>
     <Compile Include="app.js" />
     <Compile Include="routes\index.js" />
-    <Compile Include="routes\user.js" />
+    <Content Include="SAMPLE.config.json" />
     <Content Include="config.json" />
     <Content Include="Web.config" />
     <None Include="hacktx.pubxml" />
