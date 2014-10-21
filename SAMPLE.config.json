@@ -1,4 +1,5 @@
 ﻿{
     "DOCUMENTDB_HOST"       : "https://YOURDOCUMENTDBURL.documents.azure.com/",
-    "DOCUMENTDB_AUTH_KEY"   : "YOUR_AUTH_KEY"
+    "DOCUMENTDB_AUTH_KEY"   : "YOUR_AUTH_KEY",
+    "DEMO_PASSWORD"         : "YOUR_PASSWORD"
 }
