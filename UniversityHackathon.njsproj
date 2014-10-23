@@ -5,7 +5,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>UniversityHackathon</Name>
     <RootNamespace>HackTX</RootNamespace>
-    <NameOfLastUsedPublishProfile>tamuhacktest</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>tamuhack</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -37,6 +37,7 @@
     <Content Include="config.json" />
     <Content Include="SAMPLE.config.json" />
     <None Include="tamuhacktest.pubxml" />
+    <None Include="tamuhack.pubxml" />
     <Content Include="Web.config" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\style.styl" />
