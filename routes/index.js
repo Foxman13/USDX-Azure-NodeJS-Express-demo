@@ -14,13 +14,13 @@ nconf
 var host = nconf.get("DOCUMENTDB_HOST");
 var authKey = nconf.get("DOCUMENTDB_AUTH_KEY");
 
-var databaseId = "TAMUHack";
+var databaseId = "HackDFW";
 var collectionId = "Hackers";
 
 var client = new DocumentDBClient(host, { masterKey: authKey });
 
 exports.index = function (req, res) {
-    res.render('index', { title: 'Hello TAMUHack!' });
+    res.render('index', { title: 'Hello HackDFW!' });
 };
 
 exports.createItem = function (req, res) {
